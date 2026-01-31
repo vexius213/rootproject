@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leaderboard - Cookie Clicker</title>
+  <link rel="stylesheet" href="leaderboard.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Leaderboard</h1>
+
+    <div class="submit">
+      <input type="text" id="name" placeholder="Your name" maxlength="12">
+      <button id="submitScore">Submit score</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Cookies</th>
+        </tr>
+      </thead>
+      <tbody id="leaderboardBody"></tbody>
+    </table>
+
+    <div class="nav">
+      <a href="../home/index.html">← Back to game</a>
+    </div>
+  </div>
+
+  <script src="leaderboard.js"></script>
+</body>
+</html>

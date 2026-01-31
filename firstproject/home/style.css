@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0.4em 0 1em;
+  font-size: 3.2rem;
+  color: #ffeb3b;
+}
+
+.stats {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.big-cookie {
+  font-size: 14rem;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.08s;
+  touch-action: manipulation;
+}
+
+.big-cookie:active {
+  transform: scale(0.92);
+}
+
+.nav {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+}
+
+.nav a {
+  color: #8bc34a;
+  margin: 0 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #c5e1a5;
+}
